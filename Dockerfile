@@ -1,4 +1,4 @@
-FROM python:3.6-alpine
+FROM python:3.7.1-alpine3.8
 
 LABEL org.label-schema.name = "gdal-python-alpine"
 LABEL org.label-schema.description = "Alpine-based image with Python and GDAL/OGR, compiled with selected additional drivers."
